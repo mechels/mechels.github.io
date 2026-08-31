@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Academic website for Ben Mechels, an undergraduate researcher in computer systems at the University of Minnesota."
+    >
+    <title>Home | Ben Mechels Portfolio</title>
+    <meta name="theme-color" content="#0b0f14">
+    <link rel="icon" href="assets/favicon.svg?v=plain-centered-20260830" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=stable-layout-20260830">
+  </head>
+  <body>
+    <header class="masthead">
+      <nav class="masthead-inner" aria-label="Primary navigation">
+        <a class="site-title" href="index.html" aria-label="Ben Mechels home">
+          <span class="typed-path">~/mechels</span>
+        </a>
+        <div class="nav-links">
+          <a class="active" href="index.html" aria-current="page">Home</a>
+          <a href="cv.html">CV</a>
+          <a href="media.html">Media</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="page">
+      <aside class="author" aria-label="Author profile">
+        <div class="author-image-frame">
+          <picture>
+            <source
+              srcset="assets/headshot-368.webp 368w, assets/headshot-552.webp 552w, assets/headshot.webp 900w"
+              sizes="(max-width: 540px) 92px, (max-width: 860px) 112px, 184px"
+              type="image/webp">
+            <img
+              class="author-image"
+              src="assets/headshot.jpg"
+              srcset="assets/headshot-368.jpg 368w, assets/headshot-552.jpg 552w, assets/headshot.jpg 900w"
+              sizes="(max-width: 540px) 92px, (max-width: 860px) 112px, 184px"
+              width="900"
+              height="900"
+              alt="Ben Mechels"
+              loading="eager"
+              decoding="sync"
+              fetchpriority="high">
+          </picture>
+        </div>
+        <h1>Ben Mechels</h1>
+        <p class="author-bio">
+          Honors CS @ UMN
+        </p>
+
+        <ul class="author-links">
+          <li>
+            <svg class="profile-icon" aria-hidden="true"><use href="assets/icons.svg#location"></use></svg>
+            <span>Minneapolis, MN</span>
+          </li>
+          <li>
+            <svg class="profile-icon" aria-hidden="true"><use href="assets/icons.svg#building"></use></svg>
+            <span>University of Minnesota</span>
+          </li>
+          <li>
+            <svg class="profile-icon" aria-hidden="true"><use href="assets/icons.svg#mail"></use></svg>
+            <a href="mailto:ben@mechels.org">ben@mechels.org</a>
+          </li>
+          <li>
+            <svg class="profile-icon" aria-hidden="true"><use href="assets/icons.svg#scholar"></use></svg>
+            <a href="https://scholar.google.com/citations?user=h_3D9X4AAAAJ&amp;hl=en&amp;oi=sra">Google Scholar</a>
+          </li>
+          <li>
+            <svg class="profile-icon" aria-hidden="true"><use href="assets/icons.svg#link"></use></svg>
+            <a href="https://www.linkedin.com/in/mechels">LinkedIn</a>
+          </li>
+          <li>
+            <svg class="profile-icon" aria-hidden="true"><use href="assets/icons.svg#code"></use></svg>
+            <a href="https://github.com/mechels">GitHub</a>
+          </li>
+        </ul>
+      </aside>
+
+      <main class="content">
+        <section class="intro">
+          <h2>Hi, I'm Ben</h2>
+          <h3>About Me</h3>
+          <p>
+            I am a second-year honors Computer Science undergraduate at the
+            University of Minnesota, where I work with Professor
+            <a href="https://caiwending.github.io/">Caiwen Ding</a> on systems
+            and computer architecture research. Previously, I worked at the
+            University of Chicago under Professor
+            <a href="https://computerscience.uchicago.edu/people/kyle-chard/">Kyle Chard</a>
+            on high-performance computing research. I have been fortunate to
+            have my work supported by the National Science Foundation, the Data
+            Science Institute at UChicago, and the University of Minnesota.
+          </p>
+          <p>
+            My interests range the full stack of computing including computer
+            architecture, distributed and parallel systems, and information
+            theory. These interests have come as a result of years of tinkering
+            with computers and electronics in personal projects including
+            building FPV drones, biometric locking systems, homemade compute
+            clusters, and more.
+          </p>
+          <p>
+            I am especially drawn to work that involves investigating the
+            relationship between low-level implementations and the downstream
+            performance of applied systems. On this front, I am always looking
+            for problems in unfamiliar areas to broaden my research exposure.
+            Long term, I hope to pursue a PhD in ECE, CS, or a related field.
+          </p>
+        </section>
+
+        <section>
+          <h3>Research Interests</h3>
+          <p>My current work focuses on:</p>
+          <ul>
+            <li>GPU kernel programming and optimizations</li>
+            <li>data compression for scientific and signal workloads</li>
+            <li>serverless inference and high-performance distributed systems</li>
+            <li>computer architecture, operating systems, and parallel algorithms</li>
+          </ul>
+        </section>
+
+        <section id="publications">
+          <h3>Recent Work</h3>
+          <ul class="publication-list">
+            <li>
+              <a href="#">
+                Transit-Layer Tensor Representation for Serverless Inference
+              </a>
+              <br>
+              <span>
+                B. Mechels, S. Shi, W. Wang, K. Chard. Under conference review,
+                poster submission.
+              </span>
+            </li>
+            <li>
+              <a href="https://arxiv.org/abs/2605.01086">
+                FPTC: A Fast Parallel Transform-based Codec for Efficient
+                Asymmetric Signal Compression
+              </a>
+              <br>
+              <span>
+                B. Mechels, R. Billmeyer, A. Chen, S. Li, C. Ding. Under
+                conference review. arXiv:2605.01086, 2026.
+              </span>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>News</h3>
+          <dl class="news-list">
+            <div>
+              <dt>Aug 2026</dt>
+              <dd>Presented at UChicago Data Science Institute and Argonne National Laboratory</dd>
+            </div>
+            <div>
+              <dt>Jun 2026</dt>
+              <dd>Started as a research intern at the University of Chicago</dd>
+            </div>
+            <div>
+              <dt>May 2026</dt>
+              <dd>Published FPTC paper preprint to arXiv at arXiv:2605.01086</dd>
+            </div>
+            <div>
+              <dt>Dec 2025</dt>
+              <dd>Made College of Science &amp; Engineering Dean's List</dd>
+            </div>
+            <div>
+              <dt>May 2025</dt>
+              <dd>Graduated from Washburn High School</dd>
+            </div>
+            <div>
+              <dt>Aug 2024</dt>
+              <dd>Started as a teaching assistant at the University of Minnesota</dd>
+            </div>
+          </dl>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2026 Ben Mechels. Hosted on GitHub.</p>
+    </footer>
+  </body>
+</html>
